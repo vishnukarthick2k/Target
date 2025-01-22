@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-22T16:16:01 IST" name="MasterSuite" finished-at="2025-01-22T16:20:28 IST" duration-ms="267067">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_Signup.checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" name="checkSignup" class="testcases.TC_001_Signup"/>
+        <method signature="TC_001_Signup.setSignup()[pri:0, instance:testcases.TC_001_Signup@54e81b21]" name="setSignup" class="testcases.TC_001_Signup"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_Signup.checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" name="checkSignup" class="testcases.TC_001_Signup"/>
+        <method signature="TC_001_Signup.setSignup()[pri:0, instance:testcases.TC_001_Signup@54e81b21]" name="setSignup" class="testcases.TC_001_Signup"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-22T16:16:01 IST" name="Test1" finished-at="2025-01-22T16:20:28 IST" duration-ms="267067">
+      <class name="testcases.TC_001_Signup">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:16:03 IST" name="setup" finished-at="2025-01-22T16:17:11 IST" duration-ms="68309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="setSignup()[pri:0, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:17:12 IST" name="setSignup" finished-at="2025-01-22T16:17:40 IST" duration-ms="27722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:18:00 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:18:17 IST" duration-ms="17372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[yuki_whobrey@aol.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[y107119f5y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Yuki]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:18:17 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:18:31 IST" duration-ms="13635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fletcher.flosi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d122102h7d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fletcher]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:18:31 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:18:44 IST" duration-ms="13122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bette_nicka@cox.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g28943b1g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bette]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:18:44 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:18:57 IST" duration-ms="12772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinouye@aol.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x42067c2x]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Veronika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:18:57 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:19:10 IST" duration-ms="12764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[willard@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f03823e4f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Willard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:19:10 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:19:23 IST" duration-ms="13178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mroyster@royster.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[d509106i8d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Maryann]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:19:23 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:19:36 IST" duration-ms="13492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alisha@slusarski.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[n22728h7n]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Alisha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:19:36 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:19:49 IST" duration-ms="13049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[allene_iturbide@cox.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[g240102d3g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Allene]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:19:49 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:20:02 IST" duration-ms="13010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chanel.caudy@caudy.org]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[r24678h7r]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chanel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:20:02 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:20:15 IST" duration-ms="12366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ezekiel@chui.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rto#!9990]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ezekiel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+        <test-method signature="checkSignup(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testcases.TC_001_Signup@54e81b21]" started-at="2025-01-22T16:20:15 IST" name="checkSignup" data-provider="LoginData" finished-at="2025-01-22T16:20:28 IST" duration-ms="13336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wkusko@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xYt29010g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Willow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSignup -->
+      </class> <!-- testcases.TC_001_Signup -->
+    </test> <!-- Test1 -->
+  </suite> <!-- MasterSuite -->
+</testng-results>

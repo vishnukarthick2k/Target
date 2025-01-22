@@ -1,0 +1,21 @@
+16:23:06.723 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:06.766 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:06.810 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:06.819 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:06.966 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:06.968 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:07.141 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:07.145 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:07.226 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:07.228 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:07.383 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:23:07.389 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:23:07.461 [main] INFO  testcases.TC_001_Signup - Execution starts...fykohut24@yopmail.com
+16:23:07.486 [main] INFO  testcases.TC_001_Signup - Execution starts...hdphilipppa3@yopmail.com
+16:23:07.510 [main] INFO  testcases.TC_001_Signup - Execution starts...bgamis6@yopmail.com
+16:23:07.524 [main] INFO  testcases.TC_001_Signup - Execution starts...cxnicole23@yopmail.com
+16:23:07.543 [main] INFO  testcases.TC_001_Signup - Execution starts...efrigg5@yopmail.com
+16:23:07.567 [main] INFO  testcases.TC_001_Signup - Execution starts...idcarrico3@yopmail.com
+16:23:07.581 [main] INFO  testcases.TC_001_Signup - Execution starts...hnjerry13@yopmail.com
+16:23:07.598 [main] INFO  testcases.TC_001_Signup - Execution starts...dglowry6@yopmail.com
+16:23:07.703 [main] INFO  testcases.TC_001_Signup - Execution starts...hralissa17@yopmail.com
