@@ -25,10 +25,13 @@ public class TC_001_Signup extends Base_Test{
 	public void checkSignup(String email,String pass,String user) throws InterruptedException { 
 		logger.info("Execution starts..."+email);
 		 if(ifYes) {
-			hp.clickAccMenuAfter();
-			hp.clickSignin();
-		  if(hp.grabURL().equals(lp.LoginUrl())) lp.forceLogin();
-		 }
+			 hp.clickAccMenuAfter();
+			 hp.clickSignin();
+		   while(!lp.shownSignin()) {
+			  logger.info(hp.grabURL());
+			  if(hp.grabURL().equals("https://www.target.com/")) lp.forceLogin();  
+		   }
+		}
 		if(!lp.isKeepSignedEnabled()) lp.checkKeepMeSigned();
 		lp.setUsername(email);
 		lp.setPassword(pass);

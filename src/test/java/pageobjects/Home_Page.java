@@ -21,14 +21,16 @@ public class Home_Page extends Base_Page {
     }
 	public void clickAccMenuB4() throws InterruptedException {
 		Thread.sleep(8000);
-		WebElement sii = driver.findElement(accMenuBefore); sii.click();
+		WebElement sii = driver.findElement(accMenuBefore); 
+		//sii.click();
 		//mouse(sii).click().perform();
-		//jsTouch(sii);
+		jsTouch(sii);
 		Thread.sleep(4000);
 	}
 	public void clickAccMenuAfter() throws InterruptedException {
-		Thread.sleep(10000);
-		driver.findElement(accMenuAfter).click();
+		Thread.sleep(8000);
+		WebElement sii = driver.findElement(accMenuAfter);
+		jsTouch(sii);
 		Thread.sleep(4000);
 	}
 	public void clickSignin() throws InterruptedException {

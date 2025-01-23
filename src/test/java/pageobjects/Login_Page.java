@@ -28,8 +28,8 @@ public class Login_Page extends Base_Page {
 	private By warning2 = By.id("password--ErrorMessage");
 	private By warning3 = By.xpath(".//div[@alerttype='warning']");
 	private By prelogindls = By.xpath("(.//strong)[1]");
-	private String alterLogin = "https://www.target.com/login?client_id=ecom-web-1.0.0&ui_namespace=ui-default&back_button_action=browser&keep_me_signed_in=false&kmsi_default=false&actions=create_session_signin";
-	
+	private String alterLogin = "https://www.target.com/login?client_id=ecom-web-1.0.0&ui_namespace=ui-default&back_button_action=browser&actions=create_session_signin";
+	private By signinPage = By.xpath(".//span[contains(text(),'Sign into')]");
 	public Login_Page(WebDriver driver) {
 		super(driver);
 		logger.info("after loginpage constructor");
@@ -172,4 +172,14 @@ public class Login_Page extends Base_Page {
 	public String LoginUrl() {
 		return alterLogin;
 	}
+	
+	public boolean shownSignin() {
+	  try {
+		boolean result = driver.findElement(signinPage).isDisplayed();
+		if(result) {return result;}
+		else {logger.info("sign in header not shown");return result;}
+	  }catch(Exception e) {
+			logger.info("cannot able to find signinPage");return false;
+	  }
+   }
 }
