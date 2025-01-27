@@ -125,7 +125,7 @@ public class ExtentReportManager implements ITestListener {
         } 
      */
         //  Method 2 - using javamail.jar
-        try {
+       /* try {
            MyEmail email = new MyEmail();
            email.setSession("vishnukarthickmatsq@gmail.com","$Vishnu24k");
            email.draftMail("Email from TestNg report", "iamvishnukarthick082@gmail.com", "2018pmc033vishnukarthick.m@gmail.com");
@@ -133,6 +133,6 @@ public class ExtentReportManager implements ITestListener {
            email.sendIt();
         }catch(Exception e) {
         	e.printStackTrace();
-        }
+        }*/
     }
 }
