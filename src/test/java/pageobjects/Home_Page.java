@@ -31,7 +31,7 @@ public class Home_Page extends Base_Page {
 		Thread.sleep(8000);
 		WebElement sii = driver.findElement(accMenuAfter);
 		jsTouch(sii);
-		Thread.sleep(4000);
+		Thread.sleep(7000);
 	}
 	public void clickSignin() throws InterruptedException {
 		driver.findElement(signin).click();
